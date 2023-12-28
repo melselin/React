@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ProductCard from '../../components/ProductCard/ProductCard';
 import axios from 'axios';
+import AddProduct from '../Product/AddProduct';
 
 export default function Homepage() {
   const [products, setProducts] = useState([]);
@@ -25,6 +26,7 @@ export default function Homepage() {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+      <AddProduct setProducts={setProducts} />
     </div>
   );
 }

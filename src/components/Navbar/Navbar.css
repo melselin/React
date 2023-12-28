@@ -1,0 +1,44 @@
+
+.navbar {
+    background-color: #f8f9fa; 
+  }
+  
+  .navbar-brand {
+    color: #007bff; 
+  }
+  
+  .navbar-toggler-icon {
+    color: #007bff; 
+  }
+  
+  .navbar-nav .nav-link {
+    color: #007bff;
+  }
+  
+  .nav-item.dropdown:hover .nav-link {
+    color: #0056b3; 
+  }
+  
+  .dropdown-menu {
+    background-color: #f8f9fa; 
+  }
+  
+  .dropdown-divider {
+    border-top: 1px solid #007bff; 
+  }
+  
+
+  .nav-link.disabled {
+    color: #6c757d;
+  }
+  
+
+  .form-control {
+    margin-right: 5px;
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
